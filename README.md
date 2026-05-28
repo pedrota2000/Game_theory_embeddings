@@ -98,25 +98,6 @@ Documents/
 
 ---
 
-## Schematic Overview
-
-```mermaid
-graph TD
-    A[Fourier Features] --> B[MLP Body]
-    B --> C1[Linear Head 1]
-    B --> C2[Linear Head 2]
-    B --> Cn[Linear Head N_h]
-    C1 --> D1[Unit Direction 1]
-    C2 --> D2[Unit Direction 2]
-    Cn --> Dn[Unit Direction N_h]
-    D1 & D2 & Dn --> E[Trajectory Integration (Torus)]
-    E --> F[Loss Computation]
-    F --> G[Adam Optimizer]
-    G --> B
-    G --> C1
-    G --> C2
-    G --> Cn
-```
 
 ---
 
