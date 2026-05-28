@@ -1,0 +1,142 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{Isaacs1965}
+\citation{Isaacs1965,basar1999dynamic,lewin2012differential}
+\citation{JimenezEmbeddings2026}
+\citation{JimenezEmbeddings2026}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Contributions.}{2}{section*.2}\protected@file@percent }
+\citation{Isaacs1965,basar1999dynamic,elliotkalton1972}
+\citation{evans1984differential,basar1999dynamic}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Game setup}{3}{section.2}\protected@file@percent }
+\newlabel{sec:setup}{{2}{3}{Game setup}{section.2}{}}
+\newlabel{eq:dyn}{{2}{3}{Game setup}{equation.2.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Hamilton--Jacobi--Isaacs derivation}{3}{section.3}\protected@file@percent }
+\newlabel{sec:hji}{{3}{3}{Hamilton--Jacobi--Isaacs derivation}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Value function}{3}{subsection.3.1}\protected@file@percent }
+\citation{basar1999dynamic,elliotkalton1972}
+\citation{JimenezEmbeddings2026}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Bellman--Isaacs principle}{4}{subsection.3.2}\protected@file@percent }
+\newlabel{eq:HJI-pre}{{7}{4}{Bellman--Isaacs principle}{equation.3.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Saddle-point controls}{4}{subsection.3.3}\protected@file@percent }
+\newlabel{eq:HJI}{{10}{4}{Saddle-point controls}{equation.3.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Open-loop reformulation}{4}{subsection.3.4}\protected@file@percent }
+\citation{JimenezEmbeddings2026}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Multi-head adversarial architecture}{5}{section.4}\protected@file@percent }
+\newlabel{sec:arch}{{4}{5}{Multi-head adversarial architecture}{section.4}{}}
+\newlabel{eq:phi}{{13}{5}{Multi-head adversarial architecture}{equation.4.13}{}}
+\newlabel{eq:body}{{14}{5}{Multi-head adversarial architecture}{equation.4.14}{}}
+\newlabel{eq:head}{{15}{5}{Multi-head adversarial architecture}{equation.4.15}{}}
+\newlabel{eq:unit}{{16}{5}{Multi-head adversarial architecture}{equation.4.16}{}}
+\@writefile{toc}{\contentsline {paragraph}{Head orthogonalisation.}{5}{section*.3}\protected@file@percent }
+\newlabel{eq:head-orth}{{17}{5}{Head orthogonalisation}{equation.4.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Multi-head time-dependent velocity network for one player $\alpha \in \{E,P\}$. A single MLP body produces the latent embedding $H_\alpha (t)$. Each of the $N_h$ linear heads is associated with one initial condition of the evader and outputs the player's instantaneous unit direction after projection on $\mathbb  {S}^1$. A symmetric network is trained for the opposite player.}}{5}{figure.1}\protected@file@percent }
+\newlabel{fig:arch}{{1}{5}{Multi-head time-dependent velocity network for one player $\alpha \in \{E,P\}$. A single MLP body produces the latent embedding $H_\alpha (t)$. Each of the $N_h$ linear heads is associated with one initial condition of the evader and outputs the player's instantaneous unit direction after projection on $\mathbb {S}^1$. A symmetric network is trained for the opposite player}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Trajectory rollout and loss}{6}{section.5}\protected@file@percent }
+\newlabel{sec:loss}{{5}{6}{Trajectory rollout and loss}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Rollout on the torus}{6}{subsection.5.1}\protected@file@percent }
+\newlabel{eq:rollout}{{18}{6}{Rollout on the torus}{equation.5.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Smooth survival function and expected first-capture time}{6}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Adversarial losses}{6}{subsection.5.3}\protected@file@percent }
+\newlabel{eq:LP}{{22}{6}{Adversarial losses}{equation.5.22}{}}
+\newlabel{eq:LE}{{23}{6}{Adversarial losses}{equation.5.23}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Algorithm}{7}{subsection.5.4}\protected@file@percent }
+\newlabel{alg:pursuit}{{1}{7}{Algorithm}{Item.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Implementation}{7}{section.6}\protected@file@percent }
+\newlabel{sec:impl}{{6}{7}{Implementation}{section.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{PyTorch.}{7}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{NumPy with hand-coded gradients.}{7}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Numerical experiments}{7}{section.7}\protected@file@percent }
+\newlabel{sec:experiments}{{7}{7}{Numerical experiments}{section.7}{}}
+\citation{JimenezEmbeddings2026}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Default hyperparameters for the numerical experiments.}}{8}{table.1}\protected@file@percent }
+\newlabel{tab:hyperparams}{{1}{8}{Default hyperparameters for the numerical experiments}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Loss curves and capture diagnostics}{8}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Learned trajectories}{8}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Heading-angle profiles}{8}{subsection.7.3}\protected@file@percent }
+\citation{Isaacs1965}
+\citation{basar1999dynamic,lewin2012differential}
+\citation{vidal2002probabilistic,chung2011search}
+\citation{bansaltomlin2021deepreach}
+\citation{sirignano2018dgm}
+\citation{han2018deepbsde}
+\citation{onken2021neuralhamiltonian}
+\citation{baker2020emergent}
+\citation{lowe2017maddpg}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Loss curves and capture diagnostics during adversarial training. Left: $\mathcal  {L}_P$ and $\mathcal  {L}_E$. Right: soft expected capture time $\mathbb  {E}[T_c]_{\rm  soft}$, mean torus distance at $t=t_{\qopname  \relax m{max}}$, and the fraction of heads for which $S(t_{\qopname  \relax m{max}})>1/2$ (no capture).}}{9}{figure.2}\protected@file@percent }
+\newlabel{fig:loss}{{2}{9}{Loss curves and capture diagnostics during adversarial training. Left: $\mathcal {L}_P$ and $\mathcal {L}_E$. Right: soft expected capture time $\E [T_c]_{\rm soft}$, mean torus distance at $t=t_{\max }$, and the fraction of heads for which $S(t_{\max })>1/2$ (no capture)}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Latent-space PCA spectrum}{9}{subsection.7.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Literature comparison}{9}{section.8}\protected@file@percent }
+\newlabel{sec:lit}{{8}{9}{Literature comparison}{section.8}{}}
+\@writefile{toc}{\contentsline {paragraph}{Classical pursuit--evasion.}{9}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Neural HJB/HJI solvers.}{9}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Adversarial RL for pursuit--evasion.}{9}{section*.8}\protected@file@percent }
+\citation{JimenezEmbeddings2026}
+\citation{Desai2022oneshot,Pellegrin2022transfer}
+\citation{vandeven2021equivariant}
+\citation{bansaltomlin2021deepreach}
+\citation{sirignano2018dgm}
+\citation{han2018deepbsde}
+\citation{lowe2017maddpg}
+\citation{baker2020emergent}
+\citation{JimenezEmbeddings2026}
+\citation{mescheder2018gan,daskalakis2018training}
+\citation{wang2021understanding}
+\@writefile{toc}{\contentsline {paragraph}{Embeddings of PDE solutions.}{10}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Geometric and equivariant control on the torus.}{10}{section*.10}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Comparison along axes relevant to the present work. ``Domain'' is the spatial geometry the method has been demonstrated on; ``Object'' is the network output; ``Embedding'' indicates whether the method explicitly constructs a finite-dimensional embedding of a family of solutions / strategies.}}{10}{table.2}\protected@file@percent }
+\newlabel{tab:lit}{{2}{10}{Comparison along axes relevant to the present work. ``Domain'' is the spatial geometry the method has been demonstrated on; ``Object'' is the network output; ``Embedding'' indicates whether the method explicitly constructs a finite-dimensional embedding of a family of solutions / strategies}{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Stability and convergence remarks}{10}{section.9}\protected@file@percent }
+\citation{JimenezEmbeddings2026}
+\citation{JimenezEmbeddings2026}
+\citation{JimenezEmbeddings2026}
+\@writefile{toc}{\contentsline {section}{\numberline {10}Conclusions}{11}{section.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Limitations.}{11}{section*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Open directions.}{11}{section*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {A}Gradient check}{11}{appendix.A}\protected@file@percent }
+\newlabel{app:gradcheck}{{A}{11}{Gradient check}{appendix.A}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}File manifest}{11}{appendix.B}\protected@file@percent }
+\bibstyle{plainnat}
+\bibcite{Isaacs1965}{{1}{1965}{{Isaacs}}{{}}}
+\bibcite{basar1999dynamic}{{2}{1999}{{Ba\c {s}ar and Olsder}}{{}}}
+\bibcite{lewin2012differential}{{3}{2012}{{Lewin}}{{}}}
+\bibcite{elliotkalton1972}{{4}{1972}{{Elliott and Kalton}}{{}}}
+\bibcite{evans1984differential}{{5}{1984}{{Evans and Souganidis}}{{}}}
+\bibcite{JimenezEmbeddings2026}{{6}{2026}{{Jimenez et al.}}{{}}}
+\bibcite{Desai2022oneshot}{{7}{2022}{{Desai et al.}}{{}}}
+\bibcite{Pellegrin2022transfer}{{8}{2022}{{Pellegrin et al.}}{{}}}
+\bibcite{bansaltomlin2021deepreach}{{9}{2021}{{Bansal and Tomlin}}{{}}}
+\bibcite{sirignano2018dgm}{{10}{2018}{{Sirignano and Spiliopoulos}}{{}}}
+\bibcite{han2018deepbsde}{{11}{2018}{{Han et al.}}{{}}}
+\bibcite{onken2021neuralhamiltonian}{{12}{2021}{{Onken et al.}}{{}}}
+\bibcite{baker2020emergent}{{13}{2020}{{Baker et al.}}{{}}}
+\bibcite{lowe2017maddpg}{{14}{2017}{{Lowe et al.}}{{}}}
+\bibcite{vidal2002probabilistic}{{15}{2002}{{Vidal et al.}}{{}}}
+\bibcite{chung2011search}{{16}{2011}{{Chung et al.}}{{}}}
+\bibcite{vandeven2021equivariant}{{17}{2021}{{van de Ven and Sutter}}{{}}}
+\bibcite{mescheder2018gan}{{18}{2018}{{Mescheder et al.}}{{}}}
+\bibcite{daskalakis2018training}{{19}{2018}{{Daskalakis et al.}}{{}}}
+\bibcite{wang2021understanding}{{20}{2021}{{Wang et al.}}{{}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Learned trajectories of the evader (blue) and the pursuer (red) for nine of the twelve initial conditions used in training. Squares mark the starting positions; crosses mark the final positions at $t = t_{\qopname  \relax m{max}}$. Line breaks indicate wrap-around at the torus boundary. Captures (when they occur) take place at the smallest $k$ for which $\|\Delta _\mathbb  {T}^{2}\|_k\le \varepsilon $; $T_c$ is reported in the panel title.}}{14}{figure.3}\protected@file@percent }
+\newlabel{fig:trajs}{{3}{14}{Learned trajectories of the evader (blue) and the pursuer (red) for nine of the twelve initial conditions used in training. Squares mark the starting positions; crosses mark the final positions at $t = t_{\max }$. Line breaks indicate wrap-around at the torus boundary. Captures (when they occur) take place at the smallest $k$ for which $\|\Delta _\TT \|_k\le \varepsilon $; $T_c$ is reported in the panel title}{figure.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Unwrapped heading angles $\theta _E(t)$ and $\theta _P(t)$ for one representative initial condition. Smooth monotone-like profiles indicate that the open-loop policies converge to physically sensible trajectories.}}{15}{figure.4}\protected@file@percent }
+\newlabel{fig:heading}{{4}{15}{Unwrapped heading angles $\theta _E(t)$ and $\theta _P(t)$ for one representative initial condition. Smooth monotone-like profiles indicate that the open-loop policies converge to physically sensible trajectories}{figure.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces PCA of the centred latent embeddings $H_E(t)$ (left) and $H_P(t)$ (right) over a dense time grid. Bars: normalised eigenvalues; solid line: cumulative explained variance. A handful of components capture the bulk of the variance, indicating an effectively low-dimensional manifold of optimal time-parametrised strategies.}}{15}{figure.5}\protected@file@percent }
+\newlabel{fig:pca}{{5}{15}{PCA of the centred latent embeddings $H_E(t)$ (left) and $H_P(t)$ (right) over a dense time grid. Bars: normalised eigenvalues; solid line: cumulative explained variance. A handful of components capture the bulk of the variance, indicating an effectively low-dimensional manifold of optimal time-parametrised strategies}{figure.5}{}}
+\gdef \@abspage@last{15}
